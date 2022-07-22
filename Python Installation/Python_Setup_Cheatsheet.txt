@@ -1,0 +1,28 @@
+=================================================
+Colab
+=================================================
+
+https://colab.research.google.com/
+
+
+------------------------------------------------
+Important things
+------------------------------------------------
+1. Before You open colab, loin to your google/gmail account in same browser
+2. This way, your notebooks are permenantly saved in google drive; 
+
+
+
+
+
+
+=================================================
+Anaconda
+=================================================
+https://www.anaconda.com
+
+
+=================================================
+Pycharm
+=================================================
+https://www.jetbrains.com/pycharm/download

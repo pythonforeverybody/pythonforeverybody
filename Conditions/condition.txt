@@ -1,0 +1,32 @@
+
+===================================================================
+if-else
+===================================================================
+
+if condition_1:
+	statement
+
+elif condition_2:
+	statement
+
+elif condition_n:
+	statement
+
+else:
+	statement
+
+
+=================================================================
+example
+=================================================================
+apple_stock_change=2
+#price decreasing=sell
+#price increasing within 1 percent=hold
+#price increasing by more than 1 percent then, we buy
+
+if apple_stock_change <=0:
+  print('Please sell the stock')
+elif apple_stock_change >0 and apple_stock_change <1:
+  print('Hold the apple stock')
+else:
+  print('buy the apple stock')

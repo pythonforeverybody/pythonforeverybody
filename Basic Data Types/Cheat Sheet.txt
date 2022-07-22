@@ -1,0 +1,61 @@
+Cheat Sheet
+
+==================================================================================================
+List
+==================================================================================================
+Creating a List:
+varibale_name=[item1, item2, item_n]
+E.g.
+falcon1_launch=[ '2006-03-24 22:30', '2007-03-21', '2008-08-03', '2008-09-28 23:15', 2009-07-14']
+
+removing: 
+your_list.remove (item), your_list.pop(index),del your_list[start_index, end_index]
+adding item: your_list.insert(index,item), your_list.append(item)
+
+Extra:
+your_list.sort()  				#sorting
+len(your_list)					#lengthe of list
+your_list.reverse()				#reverse the list
+your_list.clear()				#remove all items in list
+
+
+==================================================================================================
+Dictionary
+==================================================================================================
+
+Creating a Dictionary:
+variable_name= {key1:value1, key2:value2}
+
+E.g.
+dis_from_earth={'Mercury': 0.389, 'Venus': 0.724, 'Earth': 1, 'Mars': 1.524, 'Jupiter': 5.20, 'Saturn': 9.510}
+
+Add item in dictionary: my_dict[key]= value
+Update Item: my_dict.update({key1:new_value1, key2:new_value2})
+
+Extra:
+
+Get all Keys: my_dict.keys()
+get all values: my_dict.values()
+
+==================================================================================================
+String:
+==================================================================================================
+
+Creating a String:
+
+variable_name= "string1" 
+or 
+variable_name= 'string1'
+or 
+variable_name= '''string1''' 
+
+
+Concat Strings:  
+str1 + str2
+
+Lower case & Uppercase:
+str1.lower()
+str1.upper()
+
+Extract sub-string:
+str1[start:end]
