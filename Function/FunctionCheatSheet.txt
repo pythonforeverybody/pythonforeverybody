@@ -1,0 +1,40 @@
+====================================================
+Function
+====================================================
+
+def function_name(parameter_1, parameter_2, parameter_n):
+	_statements_
+
+	return return_item
+
+
+====================================================
+example
+The below function randonly generate city you should visit next
+====================================================
+
+-----------------------------------------
+function declaration
+Note: \ symbol tells the statement continues in next line
+-----------------------------------------
+def city_visit_next(number):
+	city=['Charleston, South Carolina', 'Santa Fe, New Mexico', 'Savannah, Georgia', \
+      'New Orleans','New York City','San Antonio, Texas','Chicago','Bend, Oregon', \
+      'Williamsburg, Virginia','Honolulu','Nashville','Fort Worth, Texas','Austin, Texas', \
+      'Carmel-by-the-Sea, California','Niagara Falls, NY']
+	
+	import random
+	city=random.choices(city, k=number)
+	return city
+
+
+
+-----------------------------------------
+function call/usage
+-----------------------------------------
+print ('Your Next Trip Includes:')
+print(city_visit_next(2))
+
+output===> 
+Your Next Trip Includes:
+['Charleston, South Carolina', 'Fort Worth, Texas']
