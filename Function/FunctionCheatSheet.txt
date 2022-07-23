@@ -10,7 +10,7 @@ def function_name(parameter_1, parameter_2, parameter_n):
 
 ====================================================
 example
-The below function randonly generate city you should visit next
+The below function randomly generate city you should visit next
 ====================================================
 
 -----------------------------------------
