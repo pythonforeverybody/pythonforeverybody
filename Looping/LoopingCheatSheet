@@ -25,3 +25,4 @@ person= ['steve jobs', 'bill gates', 'elon musk', 'tim cook']
 i=0
 while i < len(person):
 	print(person[i])
+	i=i+1
